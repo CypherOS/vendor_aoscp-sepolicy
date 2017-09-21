@@ -1,3 +1,6 @@
+# Fingerprint
+/(vendor|system/vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.1-service\.2\.0 u:object_r:hal_fingerprint_default_exec:s0
+
 # Pocket judge
 /sys/kernel/pocket_judge(/.*)?	u:object_r:pocket_judge_sysfs:s0
 
