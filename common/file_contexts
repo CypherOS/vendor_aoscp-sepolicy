@@ -1,2 +1,4 @@
 # Pocket judge
 /sys/kernel/pocket_judge(/.*)?	u:object_r:pocket_judge_sysfs:s0
+
+/sys/kernel/debug/tracing/trace_marker   u:object_r:trace_marker:s0
