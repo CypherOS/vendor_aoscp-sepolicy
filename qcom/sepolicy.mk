@@ -3,6 +3,9 @@
 # inherit from CypherOS
 #
 
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
+    device/lineage/sepolicy/qcom/private
+
 BOARD_SEPOLICY_DIRS += \
     vendor/aoscp-sepolicy/qcom/common \
     vendor/aoscp-sepolicy/qcom/$(TARGET_BOARD_PLATFORM)
